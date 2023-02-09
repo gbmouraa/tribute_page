@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+h1,
+h2,
+h4 {
+    color: #333333;
+}
+
+a:visited {
+    color: #74638F;
+}
+
+/* --------------------------- */
+
+#main {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 0 12px;
+    margin: 50px 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+/* -------------------------- */
+
+header h1 {
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* ----------------------- */
+
+#img-div {
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+#img-caption {
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* -------------------------- */
+
+#tribute-info h2 {
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+/* ---------------------------- */
+
+.time-line-ul,
+blockquote {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    min-width: 250px;
+    margin: 0 auto;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.time-line-ul li {
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+blockquote {
+    padding: 30px 0;
+}
+
+/* ------------------------------ */
+
+.tribute-link-div h4 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
